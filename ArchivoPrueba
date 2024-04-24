@@ -1,3 +1,0 @@
-- git fetch: Descarga los cambios remotos al repositorio local pero no modifica tu directorio de trabajo ni fusiona estos cambios automáticamente con tu rama local actual. Es útil para revisar los cambios antes de fusionarlos.
-
-- git pull: Realiza git fetch seguido de git merge o git rebase automáticamente, dependiendo de tu configuración. Fusiona los cambios del repositorio remoto con tu rama local actual y actualiza tu directorio de trabajo con los cambios fusionados.
