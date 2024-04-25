@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+background-color: white;
+padding: 10px;
+
+}
+
+.logo{
+font-size: x-large;
+color: blue;
+}
+
+.subtitulos a{
+    color: gray;
+    text-decoration: none;
+    
+    
+}
+.subtitulos{
+    list-style-type: none;
+}
+
+.btnEntrar{
+    background-color: #40cfff;
+    color: white;
+}
+
+.sub-encabezado a{
+    color: white;
+    text-decoration: none;
+}
+
+.sub-encabezado{
+    background-color: #003785;
+    list-style-type: none;
+    
+}
