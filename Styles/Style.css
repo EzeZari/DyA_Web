@@ -1,39 +1,252 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
+        font-size: 1.1rem;
+    line-height: 1.7em;
 }
+
 header {
-background-color: white;
-padding: 10px;
-
+    background-color: white;
 }
 
-.logo{
-font-size: x-large;
-color: blue;
+h1 {
+    font-size: 43px;
+    line-height: 53px;
+    font-weight: 600;
+    color: #0a1159;
 }
 
-.subtitulos a{
+main {
+    padding-left: 169px;
+    padding-right: 870px;
+}
+
+.top-header a {
+    text-decoration: none;
+    color: #777;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo {
+    font-size: xx-large;
+    color: #0a1159 !important;
+    padding: 0px 50px!important;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-right: 30rem;
+}
+
+.btnEntrar {
+    background: #00a5f4;
+    border-radius: 30px;
+        line-height: 50px;
+    margin-top: 15px;
+    margin-left: 12px;
+    padding: 10px 20px;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.subtitulos a {
     color: gray;
     text-decoration: none;
-    
-    
 }
-.subtitulos{
+
+.subtitulos {
     list-style-type: none;
 }
 
-.btnEntrar{
-    background-color: #40cfff;
-    color: white;
+.sub-encabezado {
+    background-color: #0a1159;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-.sub-encabezado a{
-    color: white;
+
+.sub-encabezado a {
+    color: #eee;
+    line-height: 50px;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+.enlace1 {
+    text-decoration: none;
+    color: #008dd0;
+}
+
+.enlace1-punto {
+    color: #ff4c22;
+    list-style: circle;
+}
+
+.horario {
+    margin: 25px 0px;
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+figcaption {
+    width: calc(100% - 20px);
+    background: 0 0;
+    padding: 10px 10px;
+    color: #777;
+    font-size: 15px;
+    line-height: 25px;
+    font-style: italic;
+}
+
+.Anuncio-espacio {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Anuncio {
+    background-color: #0a1159;
+    transition: background-color ease .5s;
+    padding: 1rem 1rem 1rem 0;
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    border-left: 3px solid #00a5f4;
+}
+
+.Anuncio a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.Anuncio-p {
+    color: #00a5f4;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    padding-left: 16rem;
+}
+
+.Anuncio img {
+    width: 240px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .568627451);
+}
+
+.InputSuscribirse {
+    padding: 20px 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 1.5rem auto;
+    width: 50%;
+}
+
+.InputSuscribirse p {
+    margin: 0 0 5px 0;
+    color: #00a5f4;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 700;
+    font-family: Lato, sans-serif;
+    line-height: .9rem;
+    letter-spacing: 0;
+}
+
+.InputSuscribirse h3 {
+    font-size: 1.05rem;
+    line-height: 1.5rem;
+    color: #0a1159;
+    margin: 0 0 1rem 0;
+}
+
+.InputSuscribirse input {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 10px;
+    width: calc(65% - 20px);
+    color: #0a1159;
+    outline-color: #00a5f4;
+    font-style: italic;
+    font-family: Lato, sans-serif;
+    font-size: 11px;
+}
+
+.InputSuscribirse button {
+    background: #00a5f4;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #81d6ff;
+    margin-left: -10px;
+    width: calc(40% - 20px);
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.tags {
+    display: block;
+    padding: 5px 0px;
+}
+
+.tags a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #00a5f4;
+    margin-right: 5px;
+    font-size: 1rem;
+    margin-top: 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.noticia {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+.OtrasNoticias img {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .3333333333);
+    background-color: #fff;
+    width: 50%;
+    height: 50%;
+}
+
+.OtrasNoticias a {
+    color: #191a1e;
     text-decoration: none;
 }
 
-.sub-encabezado{
-    background-color: #003785;
-    list-style-type: none;
-    
+footer {
+    background: #0a1159;
+    margin-top: 3rem;
+    align-items: flex-start;
+    padding: 70px 35px;
+    color: #fff;
+}
+
+.links {
+    padding-top: 1rem;
+    font-size: .9rem;
+    color: #00a5f4;
+}
+
+.links a {
+    font-size: 1rem;
+    color: #00a5f4;
+    text-transform: uppercase;
+    padding: 5px 0;
+    line-height: 1rem;
+    transition: color .5s ease;
+    text-decoration: none;
+}
+
+.imgContacto {
+    padding-top: 1.5rem;
 }
