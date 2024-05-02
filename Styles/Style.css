@@ -231,6 +231,10 @@ footer {
     color: #fff;
 }
 
+footer a{
+    text-decoration: none;
+}
+
 .links {
     padding-top: 1rem;
     font-size: .9rem;
@@ -249,4 +253,12 @@ footer {
 
 .imgContacto {
     padding-top: 1.5rem;
+}
+
+.Agenda a{
+    color: #00a5f4;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1;
 }
