@@ -68,7 +68,7 @@ main {
     color: #eee;
     line-height: 50px;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 16px;
     font-size: 1rem;
 }
 
@@ -255,10 +255,56 @@ footer a{
     padding-top: 1.5rem;
 }
 
+.ul-agenda {
+    margin: 0px;
+    padding: 0px;
+    /* list-style: none; */
+    line-height: 1;
+    position: absolute;
+    left: 30%;
+    top: 191rem;
+    color:#0a1159
+}
+
+.ul-agenda h4{
+    color: white;
+}
+
+.ul-agenda a{ 
+color: #00a5f4;
+text-decoration: none;
+line-height: 2rem;
+
+}
+
 .Agenda a{
     color: #00a5f4;
     margin: 0;
     padding: 0;
     list-style: none;
     line-height: 1;
+    line-height: 1rem;
 }
+
+.ul-futbol{
+     margin: 0px;
+    padding: 0px;
+    /* list-style: none; */
+    line-height: 1;
+    position: absolute;
+        left: 55%;
+    top: 191rem;
+    color:#0a1159
+}
+
+.ul-futbol a{ 
+color: #00a5f4;
+text-decoration: none;
+line-height: 2rem;
+
+}
+
+.ul-futbol h4{
+    color: white;
+}
+
