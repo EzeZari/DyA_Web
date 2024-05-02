@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-Pagina web a la cual copie =
-https://www.tycsports.com/river-plate/habra-superclasico-en-los-cuartos-de-la-copa-de-la-liga-id577638.html
-![Captura](https://github.com/EzeZari/DyA_Web/assets/103504490/2ce3f5da-ec23-458a-a769-47fa69491be7)
-=======
-1- A partir de la rama principal del repositorio remoto (main) crear una nueva branch llamada DAW-03.
-2- Añadir un archivo form.html y crear un formulario de contacto básico utilizando de forma libre los inputs de formularios dados en la clase. El formulario debe contener al menos: inputs type text, email, select, radio ó check y un campo para ingresar texto libre con un botón "enviar" para enviar los datos ingresados, un botón "cancelar" que vuelva a index.html y un botón "reset" que borre los datos cargados en el formulario. 
-3- Hacer los commits correspondientes, seccionados de forma correcta.
-4- Pushear la nueva rama y hacer PR (pull request) apuntando a la rama principal.
-5- Analizar la PR desde GitHub y mergearla.
-6- Responder a la actividad n° 03 de UAI Ultra con el link de la nueva branch creada en Github antes de la fecha límite de entrega.
+Pagina copiada = https://www.tycsports.com/river-plate/habra-superclasico-en-los-cuartos-de-la-copa-de-la-liga-id577638.html
 
->>>>>>> main
+Por las dudas, subo capturas de como quedo en mi pantalla,por si al abrirlo en otra pc se distorciona.
+![Captura12](https://github.com/EzeZari/DyA_Web/assets/103504490/7c81dc72-5210-456b-b931-1f0c673cfb5a)
+[Captura](https://github.com/EzeZari/DyA_Web/assets/103504490/fb2f2302-d5b7-472a-b147-a0ad2913feef)
+![Captura](https://github.com/EzeZari/DyA_Web/assets/103504490/34662946-b9fa-498e-a04d-0a6e6d5de606)
+![Captura 2](https://github.com/EzeZari/DyA_Web/assets/103504490/a1ee51e4-4e25-4174-bb38-6a00ae3d937a)
+![Captura3](https://github.com/EzeZari/DyA_Web/assets/103504490/180dee09-81eb-45d1-8f27-3463b87c81fa)
