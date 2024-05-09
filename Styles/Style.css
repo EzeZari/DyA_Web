@@ -46,6 +46,9 @@ main {
     color: #fff !important;
     font-weight: bold;
 }
+.menuHamb{
+    display: none;
+}
 
 .subtitulos a {
     color: gray;
@@ -292,7 +295,7 @@ line-height: 2rem;
     /* list-style: none; */
     line-height: 1;
     position: absolute;
-        left: 55%;
+    left: 55%;
     top: 191rem;
     color:#0a1159
 }
@@ -308,3 +311,39 @@ line-height: 2rem;
     color: white;
 }
 
+
+/* -- RESPONSIVE -- */
+
+@media(max-width:1270px){
+    .top-header a:not(.logo):not(.btnEntrar) {
+    display: none;
+}
+.btnEntrar{
+        position: absolute;
+        left: 74%;
+        top: 12px;
+        margin: 4px;
+        padding: 0;
+        
+}
+.logo{
+        position: relative;
+        left: -2%;
+        top: 22px;
+        padding: 0;
+        
+}
+.menuHamb{
+        display: block;
+        position: relative;
+        left: 95%;
+        top: -15px;
+}
+ main{
+    padding-left: 0px;
+    padding-right: 1px;
+    }
+    .max{
+        display: none;
+    }
+}
